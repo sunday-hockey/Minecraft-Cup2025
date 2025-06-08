@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myname:suiryoku_sign",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/suiryoku_sign"
+			},
+			"geometry": {
+				"default": "geometry.suiryoku_sign"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "suiryoku_sign_spawn_egg"
+			}
+		}
+	}
+}

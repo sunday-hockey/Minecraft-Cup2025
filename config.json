@@ -1,0 +1,46 @@
+{
+	"type": "minecraftBedrock",
+	"name": "sunday-hockey",
+	"namespace": "sunday-hockey",
+	"authors": [
+		"find"
+	],
+	"targetVersion": "1.21.10",
+	"description": "",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"experimentalCreatorCameraFeatures": false,
+		"enableGameTestFramework": false,
+		"dataDrivenJigsawStructures": false,
+		"customComponentsV2": false,
+		"renderDragonFeatures": false,
+		"educationEdition": true
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "sunday-hockey"
+				}
+			]
+		]
+	}
+}
