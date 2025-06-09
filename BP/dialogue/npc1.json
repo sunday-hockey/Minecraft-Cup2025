@@ -11,6 +11,21 @@
 				"scene_tag": "dialogue2",
 				"npc_name": "npc1",
 				"text": "2"
+			},
+			{
+				"scene_tag": "dialogue3",
+				"npc_name": "npc1",
+				"text": "3"
+			},
+			{
+				"scene_tag": "dialogue4",
+				"npc_name": "npc1",
+				"text": "4"
+			},
+			{
+				"scene_tag": "dialogue5",
+				"npc_name": "npc1",
+				"text": "5"
 			}
 		]
 	}

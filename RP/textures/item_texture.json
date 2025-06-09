@@ -1,5 +1,9 @@
 {
 	"resource_pack_name": "sunday-hockey",
 	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"suiryoku_sign_spawn_egg": {
+			"textures": ["textures/items/suiryoku_sign_spawn_egg"]
+		}
+	}
 }

@@ -1,9 +1,7 @@
 {
 	"format_version": 2,
 	"metadata": {
-		"authors": [
-			""
-		],
+		"authors": ["アドオンです　有効化してください"],
 		"generated_with": {
 			"bridge": [
 				"2.7.46"
@@ -14,8 +12,8 @@
 		}
 	},
 	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
+		"name": "日曜ホッケー",
+		"description": "日曜ホッケー Resource Pack",
 		"min_engine_version": [
 			1,
 			21,
@@ -30,6 +28,7 @@
 	},
 	"modules": [
 		{
+			"description": "日曜ホッケー",
 			"type": "resources",
 			"uuid": "311bb348-553a-4079-81ac-14288d8a9815",
 			"version": [

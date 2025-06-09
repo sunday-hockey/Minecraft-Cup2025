@@ -14,8 +14,8 @@
 		}
 	},
 	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
+		"name": "日曜ホッケー",
+		"description": "日曜ホッケー Behavior Pack",
 		"min_engine_version": [
 			1,
 			21,
@@ -30,6 +30,7 @@
 	},
 	"modules": [
 		{
+			"description": "Behavior",
 			"type": "data",
 			"uuid": "4d75e95a-186b-4beb-b85e-e9235cbf4e02",
 			"version": [
@@ -37,6 +38,12 @@
 				0,
 				0
 			]
+		}
+	],
+		"dependencies": [
+		{
+			"uuid": "52d6cb5e-e810-421a-a6c9-b40db809e4dd",
+			"version": [1, 0, 0]
 		}
 	]
 }
