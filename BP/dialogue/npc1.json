@@ -1,6 +1,17 @@
 {
-	"format_version": "1.21.20",
+	"format_version": "1.21.10",
 	"minecraft:npc_dialogue": {
-		"scenes": []
+		"scenes": [
+			{
+				"scene_tag": "dialogue1",
+				"npc_name": "npc1",
+				"text": "1"
+			},
+			{
+				"scene_tag": "dialogue2",
+				"npc_name": "npc1",
+				"text": "2"
+			}
+		]
 	}
 }
