@@ -1,0 +1,94 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:npc",
+      "materials": {
+        "default": "npc"
+      },
+      "textures": {
+        "npc_1": "textures/npc/1",
+        "npc_2": "textures/npc/2",
+        "npc_3": "textures/npc/3",
+        "npc_4": "textures/npc/4",
+        "npc_5": "textures/npc/5",
+        "npc_6": "textures/npc/6",
+        "npc_7": "textures/npc/7",
+        "npc_8": "textures/npc/8",
+        "npc_9": "textures/npc/9",
+        "npc_10": "textures/npc/10",
+        "npc_11": "textures/npc/11",
+        "npc_12": "textures/npc/12",
+        "npc_13": "textures/npc/13",
+        "npc_14": "textures/npc/14",
+        "npc_15": "textures/npc/15",
+        "npc_16": "textures/npc/16",
+        "npc_17": "textures/npc/17",
+        "npc_18": "textures/npc/18",
+        "npc_19": "textures/npc/19",
+        "npc_20": "textures/npc/20",
+        "npc_21": "textures/npc/21",
+        "npc_22": "textures/npc/22",
+        "npc_23": "textures/npc/23",
+        "npc_24": "textures/npc/24",
+        "npc_25": "textures/npc/25",
+        "npc_26": "textures/npc/26",
+        "npc_27": "textures/npc/27",
+        "npc_28": "textures/npc/28",
+        "npc_29": "textures/npc/29",
+        "npc_30": "textures/npc/30",
+        "npc_31": "textures/npc/31",
+        "npc_32": "textures/npc/32",
+        "npc_33": "textures/npc/33",
+        "npc_34": "textures/npc/34",
+        "npc_35": "textures/npc/35",
+        "npc_36": "textures/npc/36",
+        "npc_37": "textures/npc/37",
+        "npc_38": "textures/npc/38",
+        "npc_39": "textures/npc/39",
+        "npc_40": "textures/npc/40",
+        "npc_41": "textures/npc/41",
+        "npc_42": "textures/npc/42",
+        "npc_43": "textures/npc/43",
+        "npc_44": "textures/npc/44",
+        "npc_45": "textures/npc/45",
+        "npc_46": "textures/npc/46",
+        "npc_47": "textures/npc/47",
+        "npc_48": "textures/npc/48",
+        "npc_49": "textures/npc/49",
+        "npc_50": "textures/npc/50",
+        "npc_51": "textures/npc/51",
+        "npc_52": "textures/npc/52",
+        "npc_53": "textures/npc/53",
+        "npc_54": "textures/npc/54",
+        "npc_55": "textures/npc/55",
+        "npc_56": "textures/npc/56",
+        "npc_57": "textures/npc/57",
+        "npc_58": "textures/npc/58",
+        "npc_59": "textures/npc/59",
+        "npc_60": "textures/npc/60"
+      },
+      "geometry": {
+        "default": "geometry.npc"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          {
+            "move": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ]
+      },
+      "animations": {
+        "general": "animation.npc.general",
+        "move": "animation.npc.move"
+      },
+      "render_controllers": ["controller.render.npc"],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 35
+      }
+    }
+  }
+}
