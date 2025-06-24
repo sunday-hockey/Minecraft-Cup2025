@@ -1,0 +1,3 @@
+entity.myname:suiryoku_sign.name=水力発電の看板
+item.spawn_egg.entity.myname:suiryoku_sign.name=Spawn 水力発電の看板
+tile.myname:white_line.name=白線
