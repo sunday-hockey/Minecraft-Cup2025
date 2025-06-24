@@ -3,5 +3,9 @@
 	"padding": 8,
 	"resource_pack_name": "sunday-hockey",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"white_line": {
+			"textures": "textures/blocks/white_line.png"
+		}
+	}
 }

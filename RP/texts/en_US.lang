@@ -1,2 +1,3 @@
 entity.myname:suiryoku_sign.name=suiryoku_sign
 item.spawn_egg.entity.myname:suiryoku_sign.name=Spawn suiryoku_sign
+tile.myname:white_line.name=白線
