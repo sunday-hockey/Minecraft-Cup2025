@@ -26,7 +26,41 @@
 				"scene_tag": "dialogue5",
 				"npc_name": "npc1",
 				"text": "5"
+			},
+
+			{
+				"scene_tag": "mccup_1_scene",
+				"npc_name": "NPC",
+				"text": "こんにちは！",
+				"buttons": [
+					{
+						"name": "次へ",
+						"commands": ["/dialogue open @e[type=npc,name=“npc2”,c=1] @initiator scene_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mccup_1_scene_2",
+				"npc_name": "NPC",
+				"text": "ここでは防災のことが学べます",
+				"buttons": [
+					{
+						"name": "次へ",
+						"commands": ["/dialogue open @e[type=npc,name=“npc2”,c=1] @initiator scene_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mccup_1_scene_3",
+				"npc_name": "NPC",
+				"text": "楽しんでください！",
+				"buttons": [
+					{
+						"name": "終了"
+					}
+				]
 			}
+
 		]
 	}
 }
