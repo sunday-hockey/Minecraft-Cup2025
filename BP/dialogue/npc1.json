@@ -35,7 +35,7 @@
 				"buttons": [
 					{
 						"name": "次へ",
-						"commands": ["/dialogue open @e[type=npc,name=“npc2”,c=1] @initiator scene_2"]
+						"commands": ["/dialogue open @e[type=npc,name=\"npc2\",c=1] @initiator mccup_1_scene_2"]
 					}
 				]
 			},
@@ -46,7 +46,7 @@
 				"buttons": [
 					{
 						"name": "次へ",
-						"commands": ["/dialogue open @e[type=npc,name=“npc2”,c=1] @initiator scene_3"]
+						"commands": ["/dialogue open @e[type=npc,name=\"npc2\",c=1] @initiator mccup_1_scene_3"]
 					}
 				]
 			},
